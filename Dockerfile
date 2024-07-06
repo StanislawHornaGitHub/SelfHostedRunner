@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-LABEL version="1.0.0"
+LABEL version="1.0.1"
 LABEL repository="https://github.com/StanislawHornaGitHub/SelfHostedRunner"
 
 ARG RUNNER_VERSION="2.317.0"
