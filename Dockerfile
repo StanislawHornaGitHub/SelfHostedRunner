@@ -43,6 +43,5 @@ RUN rm "powershell_$PWSH_VERSION-1.deb_amd64.deb"
 
 # copy over the start.sh script
 COPY ./start.sh /usr/bin/actions-runner/start.sh
-COPY ./stop.sh /usr/bin/actions-runner/stop.sh
 
 CMD ["./start.sh"]
